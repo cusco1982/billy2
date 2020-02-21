@@ -1,6 +1,4 @@
 {
-
-
   "name": "billy2",
   "version": "1.0.0",
   "description": "",
@@ -15,21 +13,17 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build && npm run seed"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cusco1982/billy2.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cusco1982/billy2/issues"
   },
-  
   "homepage": "https://github.com/cusco1982/billy2#readme",
-  
   "devDependencies": {
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.4"
@@ -51,6 +45,4 @@
     "stripe": "^7.10.0",
     "uuid": "^3.3.3"
   }
-
-  
 }
