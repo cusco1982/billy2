@@ -76,7 +76,7 @@ export default class Tenants extends Component {
                 </div>
                 <div className="loginput">
                   <label for="password">Password</label>
-                  <input className="form-control" type="password" id="password" name="password" onChange={this.handleChange} />
+                  <input className="form-control" required type="password" id="password" name="password" onChange={this.handleChange} />
                 </div>
                 <br />
                 <div>
