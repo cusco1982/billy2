@@ -27,9 +27,13 @@
   "bugs": {
     "url": "https://github.com/cusco1982/billy2/issues"
   },
-
+  
   "homepage": "https://github.com/cusco1982/billy2#readme",
-
+  
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.4"
+  },
   "dependencies": {
     "@mdi/font": "^4.5.95",
     "axios": "^0.18.0",
