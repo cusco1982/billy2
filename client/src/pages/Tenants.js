@@ -72,7 +72,7 @@ export default class Tenants extends Component {
               <form onSubmit={this.handleSubmit}>
                 <div className="loginput">
                   <label for="email">Your Email Address</label>
-                  <input className="form-control" type="email" id="email" name="email" onChange={this.handleChange} />
+                  <input className="form-control" required type="email" id="email" name="email" onChange={this.handleChange} />
                 </div>
                 <div className="loginput">
                   <label for="password">Password</label>
