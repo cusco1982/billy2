@@ -122,7 +122,7 @@ class Tenant extends Component {
               <div className="jumbotron tent2">
                 <h2>Customer Profile</h2>
                 <h5>Name: </h5>
-                <h5>Phone: </h5>
+                <h5>Phone: {user.email} </h5>
                 <h5>Email: {user ? user.email : "test@email.com"} </h5>
                 <h5>Rent: </h5>
                 <h5>Next Rent Due:</h5>
