@@ -121,7 +121,7 @@ class Tenant extends Component {
             <div className="col-md-5 col3 animated fadeInUp slow delay">
               <div className="jumbotron tent2">
                 <h2>Customer Profile</h2>
-                <h5>Name: {user.password}</h5>
+                <h5>Name: </h5>
                 <h5>Phone: {user.email} </h5>
                 <h5>Email: {user ? user.email : "test@email.com"} </h5>
                 <h5>Rent: </h5>
