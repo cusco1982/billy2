@@ -129,7 +129,6 @@ class Tenant extends Component {
               </div>
             </div>
 
-
 <div className="col-md-5 col3 animated fadeInUp slow delay">
   <div className="jumbotron tent2">
     <button type="button" name="issueModal" className="btn btn-primary btn-lg btn-block" onClick={this.open}>Request Maintenance</button>
