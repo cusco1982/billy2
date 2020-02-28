@@ -127,6 +127,7 @@ class Tenant extends Component {
                 <h5>Email: {
                   // user ? 
                   user.email 
+                  // : "test@email.com"
                 } </h5>
                 <h5>Rent: </h5>
                 <h5>Next Rent Due:</h5>
