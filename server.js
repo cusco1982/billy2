@@ -44,8 +44,13 @@ app.use(routes);
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/propmanagedb", {useNewUrlParser: true, useUnifiedTopology: true})
 //     .then(() => console.log('MongoDB Connected...'))
 //     .catch(err => console.log(err));
+
+// -------------------------
+
 // Connect to the Mongo DB
-console.log(process.env.MONGODB_URI)
+
+// console.log(process.env.MONGODB_URI)
+// console.log(PORT);
 console.log("-------------------------")
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/propmanagedb", {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
   console.log("Mongo connected")
